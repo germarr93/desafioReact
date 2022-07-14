@@ -44,7 +44,9 @@ const incrementar = () =>
       }
       <NavBar />
       <ItemListContainer title="Bienvenidos a la Inmobiliaria mas accesible de tu pais."/>
-      
+      {/* <ItemCount stock={3} initial={1} onAdd={onAdd} /> */}
+
+
     <button onClick={incrementar}>Presionar Incremento</button>
     <button onClick={decrementar}>Presionar decremento</button>
    
